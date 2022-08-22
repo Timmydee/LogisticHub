@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Graphik';
+    font-family: 'Work Sans', sans-serif;
 }
 *,
 *::before,
@@ -37,6 +37,11 @@ span{
     margin: 0px;
     color: #fff;
     border-radius: 100px;
+    letter-spacing: 0;
+    transition: 0.4s;
+    width: 100%;
+    /* display: block; */
+    text-transform: capitalize;
 }
 .container{
     width: 100%;
