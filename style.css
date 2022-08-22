@@ -410,16 +410,6 @@ nav{
     box-shadow: 12px 12px 35px rgba(0, 119, 182, 0.11);
     height: 100%;
     border: none;
-    /* border: none;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 32px;
-    width: 100%;
-    max-height: 100%;
-    margin-left: 20px;
-    ; */
 }
 .testimony-col p,h6{
     font-weight: 400;
@@ -434,6 +424,7 @@ nav{
 @media screen and (max-width:770px) {
     .testimony-column{
         flex-direction: column;
+        width: 92%;
     }
 }
 /* footer */
