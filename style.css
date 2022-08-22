@@ -336,7 +336,7 @@ nav{
     
 }   
 .vendor-col{
-    width: 60%;
+    width: 100%;
 }
 .vendor h3{
     font-weight: 600;
@@ -358,10 +358,10 @@ nav{
     .vendor-img{
         margin-top: 40px;
     }
-    .vendor-btn{
-        padding: 10px 20px;
+    /* .vendor-btn{
+        padding: 14px 26px;
         margin: 0 auto;
-    }
+    } */
 }
 
 /* testimony */
