@@ -43,6 +43,9 @@ span{
     /* display: block; */
     text-transform: capitalize;
 }
+.btn:hover{
+    background-color: #f44336;
+}
 .container{
     width: 100%;
     /* background-image: linear-gradient((rgba(4,9,30,0.7),rgba(4,9,30,0.7))),url(image/Logihub\ landing\ page.jpg); */
