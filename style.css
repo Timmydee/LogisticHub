@@ -93,12 +93,6 @@ nav{
     border-radius: 20px;
     color: aliceblue;
 }
-/* .toggle-btn{
-    font-size: 20px;
-    font-weight: 600;
-    color: var(--lg-heading);
-    z-index: 4;   
-} */
 
 .hero1{
     width: 90%;
@@ -138,7 +132,7 @@ nav{
     display: none;
 }
 /* nav media */
-@media screen and  (max-width: 790px){
+@media screen and  (max-width: 865px){
     .hero1 h1{
         font-size: 30px;
     }
