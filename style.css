@@ -539,7 +539,8 @@ input[type=email], input[type=password] {
     margin-bottom: 30px;
 }
 
-.login-btn {
+.login-btn,
+.signup-btn {
     background-color: #0077B6;
     color: white;
     padding: 14px 20px;
@@ -547,13 +548,25 @@ input[type=email], input[type=password] {
     border: none;
     cursor: pointer;
     width: 90%;
-  }
+}
   
-  button:hover {
+button:hover {
     opacity: 0.8;
-  }
-  @media screen and (max-width:600px) {
+}
+@media screen and (max-width:600px) {
     .login-img{
         display: none;
     }
-  }
+}
+#result-box{
+    font-size: 20px;
+    color: #fff;
+    background-color: #020231;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+}

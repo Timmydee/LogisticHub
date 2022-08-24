@@ -15,17 +15,17 @@
     <!-- font style -->
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;800&display=swap" rel="stylesheet">
 </head>
-<body id="login-pages">
-    <div id="log" class="log">
+<body class="log">
+    <div>
         <div class="logos">
             <a href="index.html"><h3>Logi<span>Hub</span></h3></a>
         </div>
-        <div class="login in" id="login-page">
+        <div class="login in" id='login-page'>
             <div class="login-img">
                 <img class="login-img" src="image/Frame.svg">
             </div>
-            <div class="login-page" >
-                <h4>Welcome Back</h4>
+            <div class="login-page">
+                <h4>SIGN UP</h4>
                 <p>Et laoreet est gravida sociis arcu risus faucibus ac. </p>
                 <div class="social-container">
                     <a href="#" class="social"><i class="fab fa-google"></i></a>
@@ -33,28 +33,27 @@
                     <a href="#" class="social"><i class="fab fa-facebook"></i></a>
                 </div>
                 <p>or<span></span></p>
-                <form class="form" id="form">
-                    <label  id="email" for="login.Email">Email</label><br>
-                    <input type="email" id="login-email" placeholder="@mail.com"><br>
+                <form class="form form1">
+                    <label  for="Email">Email</label><br>
+                    <input type="email" id="register-email" placeholder="@mail.com"><br>
 
-                    <label id="password" for="Password">Password</label><br>
-                    <input type="password" id="login-password" placeholder="Enter password">
+                    <label for="Password">Password</label><br>
+                    <input type="password" id="register-password" placeholder="Enter password">
                 </form>
-                <div class="col">
+                <!-- <div class="col">
                     <label>
                         <input type="checkbox" checked="checked" name="remember"> Remember me
                     </label>
                     <a href="">Reset Password?</a>
-                </div>
+                </div> -->
 
-                <button class="login-btn" id="login-btn">Login</button>
-                <p>Dont have an account? <a href="register.html">Sign up</a></p>
-                
-            </div>
+                <button class="signup-btn" id="signup-btn">Sign Up</button>
+                <p>Already have an account? <a href="login.html">Login</a></p>
         </div>
-    <div id="result-box">
-        <h2 id="result"></h2>
     </div>
-    <script type="module" src="login.js"></script>
+    <div id="result-box">
+        <h2 id="result-box"></h2>
+    </div>
+    <script type="module" src="register.js"></script>
 </body>
 </html>
