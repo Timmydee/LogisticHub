@@ -1,8 +1,15 @@
 //Firebase Login
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js";
 import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-auth.js";
-import { firebaseConfig } from "./firebase-config";
   // Your web app's Firebase configuration
+const firebaseConfig = {
+    apiKey: "AIzaSyAloXyfRITR3zHmW2CTYLCABdVGl2-KkE8",
+    authDomain: "logihub-93690.firebaseapp.com",
+    projectId: "logihub-93690",
+    storageBucket: "logihub-93690.appspot.com",
+    messagingSenderId: "141487837276",
+    appId: "1:141487837276:web:fcc6e1e3e2372949581699"
+};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
