@@ -28,7 +28,7 @@ document.getElementById('login-btn').addEventListener('click',function(){
         document.getElementById('login-page').style.display='none'
         document.getElementById('result-box').innerHTML=`
             Welcome Back <br>  ${loginEmail} was Logn sucessfully <br>
-            <a href='index.html'>Click to go to your profile here</a>` 
+            <a href='order.html'>Click to go to your profile here</a>` 
         console.log('Welcome Back <br>  loginEmail was Logn sucessfully')
 
     })
