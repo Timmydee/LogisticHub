@@ -820,7 +820,7 @@ label,
     width: 100%;
   }
   .payment-col4{
-    margin: 0 auto;
+    display: flex;
     width: 100%;
     margin-bottom: 40px;
   }
