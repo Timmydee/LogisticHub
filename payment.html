@@ -58,17 +58,17 @@
         </nav>
       </main>
 
-      <section class="order">
+      <section class="order order-payment">
         <div>
           <h2>Request Parcel Delivery</h2>
           <div class="process">
             <div>
-              <p class="step current">1</p>
+              <p class="step">1</p>
               <p class="step-name">shipping</p>
             </div>
             <div class="line"></div>
             <div>
-              <p class="step">2</p>
+              <p class="step current">2</p>
               <p class="step-name">Payment</p>
             </div>
             <div class="line"></div>
@@ -77,16 +77,53 @@
               <p class="step-name">Confirmation</p>
             </div>
           </div>
-         
-            </div>
-          </div>
         </div>
       </section>
-      <div id="proceed" >
-        <button type="submit" class="proceed-btn">Proceed</button>
+      <div class="payment-page">
+        <div class="payment-col1">
+          <div>
+            <form>
+              <label>Pickup</label>
+              <input type="text" 
+              placeholder="Magic Land, No. 1, Kukwaba Hills, Constitution Ave, Wuye, Abuja"><br>
+              <label >To</label>
+              <input type="text" 
+              placeholder="Jabi Lake Mall, Bala Sokoto Way, Jabi 900108, Abuja">
+            </form>
+          </div>
+          <div class="payment-col2">
+            <div class="operators">
+              <h5 class="operator-name">Gokada</h5>
+              <p >20min</p>
+              <h5 operator-distance>2min away from you</h5>
+            </div>
+            <div class="amount">
+              <p>₦1,700</p>
+            </div>
+          </div>
+          <div class="d-lines operator-line"></div>
+        </div>
+        <div class="payment">
+          <h2>Payment Method</h2>
+          <div class="d-lines operator-line"></div>
+          <div class="payment-col3">
+            <div class="payment-method">
+              <p>Card Payment</p>
+            </div>
+            <div class="payment-method">
+              <p>Bank Transfer</p>
+            </div>
+            <div class="payment-method">
+              <p>Cash on Pickup</p>
+            </div>
+          </div>
+          <div class="payment-col4">
+            <a href="" class="proceed-btn payment-btn">Payment</a>
+          </div>
+          
+        </div>
       </div>
-     
-
+      
       <footer>
         <div class="footer-bar">
           <div class="footer-col">

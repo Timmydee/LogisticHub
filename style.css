@@ -596,7 +596,7 @@ button:hover {
 .order{
   width: 80%;
   margin: 0 auto;
-  padding: 0px 30px;
+  /* padding: 0px 30px; */
 }
 .order .process{
   width: 100%;
@@ -701,7 +701,7 @@ label,
   margin: 0 auto;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:700px) {
   .order h2{
     font-size: 30px;
   }
@@ -728,3 +728,117 @@ label,
     margin-top: 30px;
   }
 }
+
+/* PAYMENT PAGE */
+.payment-page{
+  /* padding: 50px; */
+  margin: 80px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.payment-page h5,
+label,
+.payment-btn{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px
+}
+.payment h2{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+}
+.amount{
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 35px;
+  color: #0077B6;
+}
+.payment p{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  color: rgba(2, 2, 49, 0.6);
+}
+.payment-col1 input[type]{
+  width: 100%;
+  height: 50px;
+  margin: 20px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 18px 22px;
+  background: #F5F5FF;
+}
+.payment-col1{
+  width: 45%;
+}
+.payment-col2{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.operators h5, p{
+  margin-top: 10px;
+}
+.operator-line{
+  width: auto;
+}
+.payment{
+  width: 45%;
+}
+.payment-method{
+  border: 1px solid black;
+  margin: 15px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 32px;
+  /* gap: 32px; */
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  border: 1px solid rgba(2, 2, 49, 0.5);
+  border-radius: 4px;
+
+}
+.payment-col3{
+  margin-bottom: 50px;
+}
+.payment-col4{
+  margin: 0 auto;
+  width: 45%;
+}
+@media screen and (max-width:700px) {
+  .payment-page{
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .payment-col1{
+    width: 100%;
+  }
+  .payment-col4{
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .payment{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .orderPage{
+    margin: 0 auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
