@@ -833,6 +833,26 @@ label,
   }
 }
 
+/* Confirmation */
+.payment-way{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.payment-way a{
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #0077B6;
+}
+.payment-way p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #020231;
+}
 
 
 
