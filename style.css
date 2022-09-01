@@ -55,7 +55,7 @@ span {
 .login-btn:hover,
 .signup-btn:hover,
 .registers:hover{
-  background-color: #f44336;
+  background-color: #020231;
 }
 .container {
   width: 100%;
@@ -90,7 +90,7 @@ nav {
   color: #f5f5ff;
 }
 .nav ul li::after {
-  background: #f44336;
+  background: #020231;
   content: "";
   width: 0;
   height: 1px;
@@ -389,8 +389,8 @@ nav {
     display: none;
   }
   .vendor-btn{
-        padding: 14px 26px;
-        margin: 0 auto ;
+    padding: 10px 10px;
+    margin: 0 auto ;
   }
   .vendor p{
     margin-bottom: 80px;
