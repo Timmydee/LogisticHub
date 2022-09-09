@@ -80,7 +80,7 @@ nav {
   padding: 2% 6%;
   justify-content: space-between;
   align-items: center;
-  animation: expand 2s ease-out 1.5s 1 both;
+  
 }
 .nav-links {
   flex: 1;
@@ -94,6 +94,7 @@ nav {
 }
 .nav ul li a {
   color: #f5f5ff;
+  animation: expand 2s ease-out 1.5s 1 both;
 }
 .nav ul li::after {
   background: #020231;
@@ -203,11 +204,11 @@ nav {
 
 @keyframes grow{
   0%{
-    opacity: 0%;
+    opacity: 0;
     width: 0%;
   }
   100%{
-    opacity: 100%;
+    opacity: 1;
     width: 100%;
   }
 }
