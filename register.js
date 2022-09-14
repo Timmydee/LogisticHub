@@ -41,7 +41,9 @@ signup.addEventListener('click',function(){
 
         document.getElementById('result-box').style.display='block'
         document.getElementById('login-page').style.display='none'
-        document.getElementById('result-box').innerHTML='sorry Account not found<br>' + errorMessage 
+        document.getElementById('result-box').innerHTML=`
+        Welcome ${reEmail}<a href='order.html'>Click to go to your profile here</a>` 
+        console.log('Welcome Back <br>  loginEmail was Logn sucessfully')
     });
 
 })

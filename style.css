@@ -419,6 +419,9 @@ nav {
   width: 100%; */
 }
 @media screen and (max-width: 1000px) {
+  .vendor-col{
+    margin: 0 auto;
+  }
   .vendor-column {
     flex-direction: column;
     align-items: center;
@@ -430,9 +433,12 @@ nav {
     padding: 10px 10px;
     margin: 0 auto ;
   }
+  .vendor h3{
+    font-size: 25px;
+  }
   .vendor p{
     margin-bottom: 80px;
-    font-size: 10px;
+    font-size: 8px;
   }
 }
 @media screen and (max-width: 1300px) {
@@ -450,11 +456,11 @@ nav {
     width: 100%;
     font-size: 12px;
   }
-  /* .vendor-btn{
+  .vendor-btn{
     padding: 10px 20px;
     margin: 0 auto ;
     font-size: 10px;
-  } */
+  }
 }
 
 /* testimony */
@@ -563,9 +569,12 @@ footer {
 .logos {
   padding: 20px;
 }
+.logos h3{
+  color: #F5F5FF;
+}
 .login {
   display: flex;
-  height: 100%;
+  height: 100vh;
   color: #fff;
   justify-content: space-evenly;
   width: 100%;
@@ -583,7 +592,7 @@ footer {
   text-align: center;
 }
 .login-page h4 {
-  margin: 50px 0 10px;
+  /* margin:  0 10px; */
   font-size: 36px;
   font-weight: 500;
   line-height: 44px;
@@ -648,9 +657,10 @@ input[type="password"] {
   width: 90%;
 }
 
-/* button:hover {
-  opacity: 0.8;
-} */
+.login-btn:hover,
+.signup-btn:hover {
+  background-color: rgb(0, 102, 255);
+}
 @media screen and (max-width: 600px) {
   .login-img {
     display: none;
@@ -660,12 +670,16 @@ input[type="password"] {
   display: none;
   font-size: 20px;
   color: #fff;
-  background-color: #020231;
-  height: 10vh;
+  /* background-color: #020231; */
+  /* height: 30vh; */
   display: flex;
-  width: 100%;
+  width: 40%;
+  margin: 0 auto;
 }
-
+#result-box a{
+  color: #fff;
+  border-bottom: 1px solid #0077B6;
+}
 /* Order page */
 .orderPage{
   background-color: #FFFFFF;
